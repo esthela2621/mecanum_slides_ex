@@ -12,10 +12,10 @@ import edu.wpi.first.wpilibj.motorcontrol.PWMSparkMax;
 
 /** This is a demo program showing how to use Mecanum control with the MecanumDrive class. */
 public class Robot extends TimedRobot {
-  private static final int kFrontLeftChannel = 2;
-  private static final int kRearLeftChannel = 3;
-  private static final int kFrontRightChannel = 1;
-  private static final int kRearRightChannel = 0;
+  private static final int kFrontLeftChannel = 4;
+  private static final int kRearLeftChannel = 0;
+  private static final int kFrontRightChannel = 5;
+  private static final int kRearRightChannel = 1;
 
   private static final int kJoystickChannel = 0;
 
